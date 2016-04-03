@@ -1,0 +1,13 @@
+<users>
+  <user username="admin" email="prova1@gmail.com" password="admin" isMod="true" bio="Mi piacciono i treni 1"/>
+  <user username="user" email="prova1@gmail.com" password="user" isMod="false" bio="Mi piacciono i treni 1"/>
+  <user username="Panez" email="prova1@gmail.com" password="cicciopasticcio1" isMod="true" bio="Mi piacciono i treni 1"/>
+  <user username="Boriky2" email="prova2@gmail.com" password="cicciopasticcio2" isMod="true" bio="Mi piacciono i treni 2"/>
+  <user username="Boriky3" email="prova3@gmail.com" password="cicciopasticcio3" isMod="false" bio="Mi piacciono i treni 3"/>
+  <user username="Boriky4" email="prova4@gmail.com" password="cicciopasticcio4" isMod="false" bio="Mi piacciono i treni 4"/>
+  <user username="Boriky5" email="prova5@gmail.com" password="cicciopasticcio5" isMod="false" bio="Mi piacciono i treni 5"/>
+  <user username="Boriky6" email="prova6@gmail.com" password="cicciopasticcio6" isMod="false" bio="Mi piacciono i treni 6"/>
+  <user username="Boriky7" email="prova7@gmail.com" password="cicciopasticcio7" isMod="false" bio="Mi piacciono i treni 7"/>
+  <user username="Boriky8" email="prova8@gmail.com" password="cicciopasticcio8" isMod="false" bio="Mi piacciono i treni 8"/>
+  <user username="Boriky9" email="prova9@gmail.com" password="cicciopasticcio9" isMod="false" bio="Mi piacciono i treni 9"/>
+</users>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>newArticle</class>
+ <widget class="QWidget" name="newArticle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>650</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>780</width>
+        <height>860</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item alignment="Qt::AlignHCenter">
+          <widget class="QLabel" name="labelNewArticle">
+           <property name="text">
+            <string>Nuovo Articolo</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelNameOfFile">
+           <property name="text">
+            <string>ID Nome File *</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditNameOfFile"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelTitle">
+           <property name="text">
+            <string>Titolo *</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditTitle"/>
+         </item>
+         <item alignment="Qt::AlignLeft">
+          <widget class="QLabel" name="labelHTML">
+           <property name="text">
+            <string>Inserire il codice HTML nel box di seguito *</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEditHTML">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>300</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelCategory">
+           <property name="text">
+            <string>Categoria</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="boxCategory">
+           <item>
+            <property name="text">
+             <string>News</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Features</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Recensione</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Hands-On</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelGenre">
+           <property name="text">
+            <string>Genere</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="boxGenre">
+           <item>
+            <property name="text">
+             <string>MMO</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>MOBA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Survival</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Coop</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Competitive</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>a-RPG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>e-Sport</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tech</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelSummary">
+           <property name="text">
+            <string>Riassunto (opzionale)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEditSummary">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>150</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelScore">
+           <property name="text">
+            <string>Voto da 0 a 10 (opazionale)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditScore"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Pubblica Nuovo Articolo</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
